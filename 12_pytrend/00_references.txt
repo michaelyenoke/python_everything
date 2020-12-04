@@ -1,2 +1,2 @@
 1.Google Trends Categories : https://github.com/pat310/google-trends-api/wiki/Google-Trends-Categories
-
+2.Google_Trend_Key_Words_Dict[Taiwan] : https://docs.google.com/spreadsheets/d/17tBkLeYHb3ZU4dn8Cfuvyk2WE-mb5hZR2jTTKliPDDQ/edit#gid=0
