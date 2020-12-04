@@ -8,3 +8,15 @@ if htmlfile.status_code == requests.codes.ok:
 else:
     print("取得網頁內容失敗")
 print(htmlfile.text)
+
+
+
+#21-2-2
+#Response
+import requests
+url='http://decathlon.tw'
+htmlfile = requests.get(url)
+if htmlfile.status_code == requests.codes.ok:
+    print("取得網頁成功")
+else: 
+    print("取得網頁內容失敗")
