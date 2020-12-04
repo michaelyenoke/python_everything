@@ -1,0 +1,10 @@
+#21-2-2
+#列印網頁原始碼
+import requests
+url='https://www.carrefour.com.tw/console/api/v1/stores?is24h=&page_size=all'
+htmlfile = requests.get(url)
+if htmlfile.status_code == requests.codes.ok:
+    print("取得網頁成功")
+else:
+    print("取得網頁內容失敗")
+print(htmlfile.text)
