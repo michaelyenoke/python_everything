@@ -1,3 +1,5 @@
+# https://www.runoob.com/python/python-func-dir.html
+
 dir()
 """
 dir() 函数不带参数时，返回当前范围内的变量、方法和定义的类型列表；
