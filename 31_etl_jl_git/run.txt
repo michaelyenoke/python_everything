@@ -1,0 +1,9 @@
+python3 gethtml.py > get.json
+python3 etl_jl.py
+gsutil cp json_lines2.jl gs://etljsonl
+
+
+
+
+
+

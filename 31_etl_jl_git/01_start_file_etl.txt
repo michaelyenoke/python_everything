@@ -1,0 +1,11 @@
+#put this file in Linux   as soure file to start etl process
+#change the json url and change the out put file name 
+#change run.txt gsutil cp file name
+
+rm -rf env
+git clone https://github.com/michaelyenoke/env
+cd env
+cd etl_jl_git
+source run.txt
+
+
