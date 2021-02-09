@@ -1,0 +1,10 @@
+{
+    "resource":"/daily-message-api",
+    "path":"/daily-message-api",
+    "httpMethod":"GET",
+    "queryStringParameters":{
+        "first_num":"10",
+        "second_num":"10",
+        "operator":"add"
+        }
+}

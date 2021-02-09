@@ -1,0 +1,6 @@
+{
+    "resource":"/daily-message-api",
+    "path":"/daily-message-api",
+    "httpMethod":"POST",
+    "body":"{\"firstnum\":10,\"secondnum\":10,\"operation\":\"add\"}"
+}
